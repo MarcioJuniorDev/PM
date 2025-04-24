@@ -17,6 +17,7 @@ export default function SignIn(){
                 behavior = {Platform.OS === 'ios' ? 'padding' : ''}
                 enabled
             >
+                <Logo source={require('../../assets/LogoSignUp.png')}/>
 
                 <AreaInput>
                     <Input

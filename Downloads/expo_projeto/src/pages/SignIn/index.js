@@ -22,7 +22,7 @@ export default function SignIn(){
         <Background>
             <Container behavior={Platform.OS === 'ios' ? 'padding' : ''} enabled>
 
-                <Logo source={require('../../assets/Logo.png')}/>
+                <Logo source={require('../../assets/LogoSignIn.png')}/>
 
                 <AreaInput>
                     <Input placeholder="Seu E-mail"/>
