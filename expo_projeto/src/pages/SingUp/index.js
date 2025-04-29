@@ -7,7 +7,8 @@ import {
     AreaInput,
     Input,
     SubmitButton,
-    SubmitText
+    SubmitText,
+    Logo
 } from '../SignIn/styles';
 
 export default function SignIn(){
