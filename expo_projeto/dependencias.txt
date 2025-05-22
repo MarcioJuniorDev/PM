@@ -1,8 +1,0 @@
-npx expo install expo@^52.0.0
-npm install -g nodejs@latest
- npm install -g npm
-npm install --global yarn
-yarn add styled-components
-yarn add @react-navigation/native
-yarn add react-native-screens react-native-safe-area-context
-yarn add @react-navigation/native-stack
