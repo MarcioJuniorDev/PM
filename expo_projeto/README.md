@@ -1,8 +1,7 @@
 # Tecnologias
 - **React**: base do projeto, com código frontend e backend.
-- **Beekeeper**: interface gráfica do banco de dados. [download](https://etecspgov.sharepoint.com/:u:/r/sites/Section_7793.A.-.T.406.228.20250/Shared%20Documents/General/Beekeeper-Studio-Setup-5.2.9.exe?csf=1&web=1&e=WQ7WeY "download do beekeeper")
-- **Insonmia**: banco de dados. [download](https://etecspgov.sharepoint.com/:u:/r/sites/Section_7793.A.-.T.406.228.20250/Shared%20Documents/General/Insomnia.Core-11.1.0.exe?csf=1&web=1&e=fc0yqV "download do insonmia")
-- **backend-financas-API:** API. [download](https://etecspgov.sharepoint.com/:u:/r/sites/Section_7793.A.-.T.406.228.20250/Shared%20Documents/General/backend-financas-main.zip?csf=1&web=1&e=bEcVpD "download da API") (incluso no projeto na pasta backend com as alterações necessárias)
+- **Beekeeper**: interface gráfica do banco de dados. [download](https://www.beekeeperstudio.io/download/?ext=exe&arch=&type=installer&edition=community "download do beekeeper")
+- **Insonmia**: banco de dados. [download](https://updates.insomnia.rest/downloads/windows/latest?app=com.insomnia.app&source=website "download do insonmia")
 
 # Execução
 1. Abra a pasta do projeto no VS Code.
