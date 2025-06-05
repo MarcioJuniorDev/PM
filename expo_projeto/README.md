@@ -9,6 +9,7 @@
 ```
  npx expo install expo@^52.0.0
  npm install -g nodejs@latest
+ yarn add axios
  npm install -g npm
  npm install --global yarn
  yarn add styled-components
@@ -20,7 +21,6 @@
 4. Após baixar todas as tecnologias, instale o BeeKeeper.
 5. Abra a API com o cmd e digite os comandos para rodar a API:
 ```
- yarn dev
  npm rum dev
 ```
 6. Abra o BeeKeeper. Em "Connection Type", selecione "SQLite". Logo em seguida, abaixo desse campo estará o "Choose file". Selecione ele, abra a pasta da API e a pasta do prisma e selecione o arquivo "dev" e então conecte no banco de dados.
