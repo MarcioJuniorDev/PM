@@ -29,23 +29,22 @@ export default function SignUp()
         SignUp(email, password, nome);
     }
 
-    return
-    (
+    return(
         <Background>
             <Container
                 behavior={Platform.OS === 'ios' ? padding : ''} enabled
             >
 
             <AreaInput>
-                <Input placeholder="Nome" value={nome}onChangeText={ (text) => setNome(text)}/>
+                <Input placeholder="Nome" value={nome} onChangeText={ (text) => setNome(text)}/>
             </AreaInput>
 
             <AreaInput>
-                <Input placeholder="Seu email" value={email}onChangeText={ (text) => setEmail(text)}/>
+                <Input placeholder="Seu email" value={email} onChangeText={ (text) => setEmail(text)}/>
             </AreaInput>
 
             <AreaInput>
-                <Input placeholder="Sua senha" value={password}onChangeText={ (text) => setPassword(text)} secureTextEntry={true}/>
+                <Input placeholder="Sua senha" value={password} onChangeText={ (text) => setPassword(text)} secureTextEntry={true}/>
             </AreaInput>
 
             <SubmitButton onPress={handleSignUp}>

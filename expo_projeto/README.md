@@ -9,13 +9,14 @@
 ```
  npx expo install expo@^52.0.0
  npm install -g nodejs@latest
- yarn add axios
  npm install -g npm
  npm install --global yarn
  yarn add styled-components
  yarn add @react-navigation/native
  yarn add react-native-screens react-native-safe-area-context
  yarn add @react-navigation/native-stack
+ yarn add axios
+
 ```
 3. Isso instalará as dependências React na sua máquina.
 4. Após baixar todas as tecnologias, instale o BeeKeeper.
