@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "react-native-async-storage": "^0.0.1"
+  }
+}
