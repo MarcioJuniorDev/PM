@@ -17,7 +17,7 @@ export default function SignUp(){
 
   const { signUp, loadingAuth } = useContext(AuthContext)
 
-  const [nome, setNome] = useState('');
+  const [nome, setNome ] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
