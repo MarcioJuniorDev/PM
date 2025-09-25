@@ -7,17 +7,15 @@
 1. Abra a pasta do projeto no VS Code.
 2. Abra o terminal e digite os seguintes comandos:
 ```
- npx expo install expo@^52.0.0
- npm install -g nodejs@latest
- npm install -g npm
  npm install --global yarn
  yarn add styled-components
  yarn add @react-navigation/native
- yarn add react-native-screens react-native-safe-area-context
  yarn add @react-navigation/native-stack
+ yarn add @react-native-async-storage/async-storage
  yarn add axios
  yarn add @react-native-async-storage/async-storage
-
+ yarn add nodejs
+ yarn add expo@^52.0.0
 ```
 3. Isso instalará as dependências React na sua máquina.
 4. Após baixar todas as tecnologias, instale o BeeKeeper.
