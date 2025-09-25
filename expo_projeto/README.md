@@ -15,6 +15,7 @@
  yarn add axios
  yarn add @react-native-async-storage/async-storage
  yarn add nodejs
+ yarn add react-native-gesture-handler
  yarn add expo@^52.0.0
 ```
 3. Isso instalará as dependências React na sua máquina.
