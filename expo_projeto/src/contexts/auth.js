@@ -1,5 +1,6 @@
 import React, { createContext, useState, useEffect}  from 'react';
 import api from '../services/api';
+
 import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -74,6 +75,8 @@ function AuthProvider({ children }){
     catch(err)
     {
       console.log("ERRO AO LOGAR", err);
+      Alert.alert("Erro", "Não foi possível fazer login. Verifique suas credenciais.");
+      setLoadingAuth(false);
       setLoadingAuth(false);
     }
   }

@@ -16,7 +16,9 @@
  yarn add @react-native-async-storage/async-storage
  yarn add nodejs
  yarn add react-native-gesture-handler
+ yarn add @react-navigation/drawer
  yarn add expo@^52.0.0
+ npx expo install react-native-reanimated
 ```
 3. Isso instalará as dependências React na sua máquina.
 4. Após baixar todas as tecnologias, instale o BeeKeeper.
